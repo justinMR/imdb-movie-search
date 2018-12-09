@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Space+Mono');
+
+
+body {
+  background: #6a3093;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #a044ff, #6a3093);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #a044ff, #6a3093); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-family: 'Space Mono', monospace;
+}
+
+.list-group-item {
+  background-color: black;
+  color: #ccc;
+}
+.btn-default {
+  background-color: black;
+}
+
+@media (min-width:960px) {
+
+#movies .col-md-3 .well {
+  height: 390px;
+}
+
+#movies .col-md-3 img {
+  height: 240px;
+}
+}
