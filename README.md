@@ -1,1 +1,1 @@
-# Made this little project usign OMDB api!
+# Made this little project using OMDB API, jQuery, Bootstrap 4!
